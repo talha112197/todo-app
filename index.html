@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <title>Welcome To ToDo App</title>
+    
+    <!-- bootstrap cdn -->
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+
+    <!-- custom stylesheet -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+
+    <!-- google font montserrat -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+            <div class="row custom-row">
+            <div class="col-lg-4 col-md-6 col-sm-8 col-10">
+                <div class="card">
+                        <div class="card-header custom-card-header text-center text-white py-4"><h4 class="card-title font-weight-bold">To-do List</h4></div>
+                        <div class="card-body p-0" id="sortable">
+                            <div class="row card-body-row no-gutters">
+                                <div class="col-lg-10 col-md-10 col-sm-10 col-10 custom-10">
+                                    <div class="form-group form-group-inline">
+                                        <input type="text" class="form-control" placeholder="A task you want to complete" name="todo-task" id="todo-input">
+                                    </div>
+                                </div>
+                                <div class="col-lg-2 col-md-2 col-sm-2 col-2 custom-2">
+                                    <div class="content">
+                                    <button class="add-todo btn"><i class="fas fa-plus fa-2x"></i></button>
+                                    </div>
+                                </div> <!-- col-lg-2 ends here -->
+                            </div> <!-- row ends here -->
+
+                            <div class="row custom-body-row-2 no-gutters">
+                                
+                                    <div class="col-lg-2 col-md-2 col-sm-2 col-2 custom-2">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" value="" id="checked-todo">
+                                            <label class="form-check-label" for="checked-todo">
+                                            </label>
+                                          </div>
+                                    </div> <!-- col-lg-2 ends here -->
+                                    <div class="col-lg-8 col-md-8 col-sm-8 col-8 custom-8">
+                                        <ul class="list-unstyled">
+                                            <li class="list-group-item">Task 1</li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="col-lg-2 col-md-2 col-sm-2 col-2 custom-2">
+                                        <button class="btn delete-todo-btn"><img class="img-fluid" src="assets/image/trash.svg" alt="delete"></button>
+                                    </div>
+
+                                </div> <!-- row div ends here -->
+
+                                <div class="row custom-body-row-2 no-gutters">
+                                    <div class="col-lg-2 col-md-2 col-sm-2 col-2 custom-2">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" id="checked-todo">
+                                            <label class="form-check-label" for="checked-todo">
+                                            </label>
+                                          </div>
+                                    </div> <!-- col-lg-2 ends here -->
+                                    <div class="col-lg-8 col-md-8 col-sm-8 col-8 custom-8">
+                                        <ul class="list-unstyled">
+                                            <li class="list-group-item">Task 2</li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="col-lg-2 col-md-2 col-sm-2 col-2 custom-2">
+                                        <button class="btn delete-todo-btn"><img class="img-fluid" src="assets/image/trash.svg" alt="delete"></button>
+                                    </div>
+
+                                    </div> <!-- custom body row ends here -->
+                                    
+                           
+                        </div> <!-- card-body ends here -->
+
+                        <div class="card-footer">
+                            <p class="text-center">Designed By Talha</p>
+                        </div>
+                </div> <!-- card ends here -->
+            </div> <!-- col-lg-4 ends here -->
+           
+        
+    <!-- jquery cdn -->
+    <script
+  src="https://code.jquery.com/jquery-3.5.1.js"
+  integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+  crossorigin="anonymous"></script>
+
+  <script
+  src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"
+  integrity="sha256-T0Vest3yCU7pafRw9r+settMBX6JkKN06dqBnpQ8d30="
+  crossorigin="anonymous"></script>
+
+  <script src="assets/js/index.js"></script>
+
+    <!-- bootstrap js -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</body>
+</html>

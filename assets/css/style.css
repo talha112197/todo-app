@@ -1,0 +1,99 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+font-family: 'Montserrat', sans-serif;
+background: #1D4350;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #A43931, #1D4350);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #A43931, #1D4350); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+
+div.custom-row {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+div.card-body-row {
+    height: 4rem;
+}
+
+ul li {
+   text-transform: capitalize; 
+}
+
+div.card {
+    border-radius: 1rem;
+    background: transparent;
+}
+
+div.custom-card-header {
+    border: none;
+    background-color: #1D4350;
+    border-top-left-radius: 1rem !important;
+    border-top-right-radius: 1rem !important;
+}
+
+div.card-footer {
+    background-color: #1D4350;
+    color: white;
+    border-bottom-left-radius: 1rem !important;
+    border-bottom-right-radius: 1rem !important;
+    font-weight: bold;
+}
+
+
+
+input.form-control {
+    height: 4rem !important;
+    font-size: 0.9;
+    height: 100%;
+    border: none;
+}
+
+.form-control{
+    border-radius: 0 !important;
+}
+
+div.custom-2 {
+    background-color: #2c6d83;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 4rem;
+}
+
+div.custom-2:hover {
+   background-color: #1d4350;
+}
+
+div.custom-8 {
+    height: 4rem;
+}
+
+i.fas.fa-plus {
+    color: white;
+}
+
+ul li.list-group-item {
+    height: 4rem;
+    padding: 1rem;
+}
+
+img.img-fluid {
+    height: 2.3rem;
+}
+
+.checked {
+    text-decoration: line-through;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+
